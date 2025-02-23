@@ -1,1 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
 
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.checkout-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment-methods {
+    width: 30%;
+}
+
+.method-card {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.method-card img {
+    width: 40px;
+    height: 40px;
+}
+
+.select-method {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.select-method:hover {
+    background-color: #0056b3;
+}
+
+.payment-form {
+    width: 65%;
+}
+
+.form-container {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.payment-method {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.payment-method h2 {
+    margin-top: 0;
+}
+
+.payment-method form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.payment-method label {
+    font-weight: bold;
+}
+
+.payment-method input,
+.payment-method select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.payment-method button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.payment-method button:hover {
+    background-color: #0056b3;
+}
+
+.qr-code {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.qr-code img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.bank-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
